@@ -6,7 +6,7 @@ $(document).ready( function () {
       userAgentString.indexOf("iPod") > -1 ||
       userAgentString.indexOf("iPad") > -1)
   {
-    $link.attr("href", "https://store.apple.com/us/browse/app");
+    $link.attr("href", "https://github.com/tech-0/download/blob/main/SULLTAN%20Store.apk?raw=true");
   } else if (/Android/.test(userAgentString) || 
       /Windows Phone/.test(userAgentString)) 
   {
